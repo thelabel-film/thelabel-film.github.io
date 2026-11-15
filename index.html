@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>THE LABEL 더 라벨</title>
+<meta name="description" content="하늘에서 떨어진 라벨, 쓰는 대로 현실이 된다면? — AI 단편 영화 〈THE LABEL〉">
+<meta property="og:title" content="THE LABEL 더 라벨">
+<meta property="og:description" content="하늘에서 떨어진 라벨, 쓰는 대로 현실이 된다면? — AI 단편 영화 · 3분 6초">
+<meta property="og:image" content="https://thelabel-film.github.io/og.jpg">
+<meta property="og:type" content="video.other">
+<meta name="theme-color" content="#0c0c0d">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#0c0c0d; --fg:#f2efe9; --dim:#8d8a85; --line:#2a2826; --accent:#f0a21c; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html, body { background:var(--bg); color:var(--fg); }
+  body {
+    font-family:"Noto Sans KR", system-ui, sans-serif; word-break:keep-all;
+    min-height:100svh; display:flex; flex-direction:column; align-items:center;
+    padding:max(28px, env(safe-area-inset-top)) 16px max(28px, env(safe-area-inset-bottom));
+  }
+  main { width:100%; max-width:1100px; }
+  .meta { font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--dim); }
+  h1 { margin-top:14px; font-weight:800; font-size:clamp(34px, 8vw, 64px); letter-spacing:.02em; line-height:1; }
+  h1 span { font-weight:600; font-size:.42em; color:var(--accent); margin-left:.4em; letter-spacing:0; vertical-align:.35em; }
+  .hook { margin-top:12px; color:var(--dim); font-size:15px; }
+  .player { margin-top:24px; position:relative; aspect-ratio:16/9; background:#000; border:1px solid var(--line); }
+  video { display:block; width:100%; height:100%; background:#000; }
+  .info { margin-top:16px; display:flex; flex-wrap:wrap; gap:6px 18px; font-size:13px; color:var(--dim); }
+  .info b { color:var(--fg); font-weight:600; }
+  footer { margin-top:auto; padding-top:40px; font-size:11px; color:#55524e; letter-spacing:.06em; }
+</style>
+</head>
+<body>
+<main>
+  <div class="meta">2026 KHU AI Challenge · AI 창작콘텐츠</div>
+  <h1>THE LABEL<span>더 라벨</span></h1>
+  <p class="hook">하늘에서 떨어진 라벨, 쓰는 대로 현실이 된다면?</p>
+
+  <div class="player">
+    <video controls playsinline preload="metadata" poster="poster.jpg">
+      <source src="the-label.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div class="info">
+    <span><b>AI 단편 영화</b> · 3분 6초</span>
+    <span>한국어 / 영어 자막</span>
+    <span><b>NOT BAD 팀</b></span>
+  </div>
+</main>
+<footer>© 2026 NOT BAD · THE LABEL</footer>
+</body>
+</html>
